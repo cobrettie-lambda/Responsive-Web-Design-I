@@ -480,14 +480,39 @@ Begin Media Query Section
         border-width: 100%;
     }
 
-    .cta {}
-
-    .cta .cta-text {
-        width: 100%;
-        margin: 0;
+    .cta {
         display: flex;
-        flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    .cta .cta-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .main-content {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .main-content .top-content {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-around;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+
+    .main-content .bottom-content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        flex-wrap: wrap;
     }
 }
