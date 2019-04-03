@@ -158,6 +158,18 @@ h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
 
+/* 
+----------
+Begin Media Query Section
+----------
+ */
+
+/*
+ ----------
+ "Mobile First Design"
+ ----------
+  */
+
 @media(max-width: 500px) {
     .container {
         width: 100%;
