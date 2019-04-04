@@ -393,6 +393,8 @@ Begin Media Query Section
     }
 
     header nav a:hover {
+        font-size: 1.4rem;
+        transition-duration: .3s;
         color: dodgerblue;
         text-decoration: underline;
     }
