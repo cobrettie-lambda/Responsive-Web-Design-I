@@ -294,7 +294,7 @@ Begin Media Query Section
         align-items: center;
         text-align: center;
         font-size: 5rem;
-        margin: 4.5rem 1.5rem 0 1.5rem;
+        margin: 4rem 1.5rem 0 1.5rem;
         padding-bottom: 4rem;
         border-bottom: 2px solid #373737;
     }
@@ -306,7 +306,7 @@ Begin Media Query Section
         color: #000;
         background: white;
         border: 1px solid #373737;
-        width: 9rem;
+        width: 11rem;
         padding: .4rem 0;
     }
 
@@ -331,17 +331,36 @@ Begin Media Query Section
         width: 47%;
     }
 
-    .bottom-content .text-content {
-        /* border: 1px solid green; */
+    .bottom-content {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin: 2rem 0 0 0;
+        padding-bottom: 2rem;
+        border-bottom: 2px solid #373737;
     }
 
-    .bottom-content {
-        display: flex;
-        justify-content: space-evenly;
-        margin:
+    .bottom-content .text-content {
+        /* border: 1px solid green; */
+        width: 28%
     }
 
     .middle-img {
         width: 100%;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+        margin: 2rem 0 0 2rem;
+    }
+
+    .contact p {
+        margin: .5rem 0;
+    }
+
+    footer {
+        text-align: center;
+        margin: 2rem 0 1.5rem 0;
     }
 }
