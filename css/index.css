@@ -315,16 +315,33 @@ Begin Media Query Section
     }
 
     .main-content {
-        /* width: 100%; */
+        margin: 2rem 1.5rem 0 1.5rem;
+    }
+
+    .top-content {
+        width: 100%;
         display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
+        justify-content: space-between;
+        margin: 0 0 2rem 0;
+        /* border: 1px solid red; */
+    }
+
+    .top-content .text-content {
+        /* border: 1px solid blue; */
+        width: 47%;
+    }
+
+    .bottom-content .text-content {
+        /* border: 1px solid green; */
+    }
+
+    .bottom-content {
+        display: flex;
+        justify-content: space-evenly;
+        margin:
     }
 
     .middle-img {
-        width: 90%;
-        margin: 0 2rem;
-
+        width: 100%;
     }
 }
